@@ -3,16 +3,11 @@
 	<title> My First Coding Assignment </title>
 	<head>
 		<meta charset="utf-8">
-
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<h1> Coursera Assignment </h1>
 		<p>My First Coding Assignment module 2... (Coursera Course Week 2)</p>
 		<style type="text/css">
-			* {
-				box-sizing: border-box;
-				
-			}
-
-
+			
 			/********** Base styles **********/
 * {
   box-sizing: border-box;
@@ -28,6 +23,7 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: black;
+  text-align: justify;
 }
 
 body {
@@ -38,72 +34,7 @@ body {
 		font-family: serif;
 
 	}
-
-			p:hover {
-				font-size: 150%;
-				
-			}
 			
-			#s1 {
-				border: 1px solid black;
-				color: red;
-				text-decoration: bold;
-				padding: 10px;
-				margin:10px;
-				
-				position: relative;
-				text-align: justify;
-				float: left;
-				
-
-			}
-			#s2 {
-				border: 1px solid black;
-				
-				color: blue;
-				text-decoration: bold;
-				padding: 10px;
-				margin:10px;
-				
-				position: relative;
-				float: left;
-			}
-			#s3 {
-				border: 1px solid black;
-				
-				color: #786605;
-				text-decoration: bold;
-				padding: 10px;
-				margin:10px;
-				
-				position: relative;
-				text-align: justify;
-				float: left;
-			}
-			#s1 #T1 {
-				text-align: right;
-				border: 1px solid black;
-				margin-top: 0;
-				margin-bottom: 0;
-				color:black;
-				
-			}
-			#s2 #T2 {
-				text-align: right;
-				border: 1px solid black;
-				margin-top: 0;
-				margin-bottom: 0;
-				color:black;
-				
-			}
-			#s3 #T3 {
-				text-align: right;
-				border: 1px solid black;
-				margin-top: 0;
-				margin-bottom: 0;
-				color:black;
-				
-			}
 
 /* Simple Responsive Framework. */
 .row {
@@ -114,7 +45,6 @@ body {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    margin-left: 10px;
     }
   .col-lg-1 {
     width: 8.33%;
@@ -158,7 +88,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    margin-left: 10px;
+    
    }
   
   .col-md-1 {
@@ -198,22 +128,23 @@ body {
     width: 100%;
   }
 }
+
 </style>
 </head>
 	<body>
 		<div class="row">
-		<div id="s1" class="col-lg-3 col-md-6">
+		<div class="col-lg-3 col-md-6">
 			<p id="T1" style="font-weight: bold;"> PARA - 1 </p>
 			<p id="Para1">  
 				Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page.
 			</p>
 		</div>
-		<div id="s2" class="col-lg-3 col-md-6">
+		<div class="col-lg-3 col-md-6">
 			<p id="T2" style="font-weight: bold;"> PARA - 2 </p>
 			<p id="Para2"> Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page.</p>
 		</div>
 
-		<div id="s3" class="col-lg-3 col-md-6">
+		<div class="col-lg-3 col-md-6">
 		<p id="T3" style="font-weight: bold;"> PARA - 3 </p>
 			<p id="Para3"> Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page. Lorem Epsom text for the web page.</p>
 		</div>
