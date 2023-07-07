@@ -1,7 +1,7 @@
 			/********** Base styles **********/
 * {
   box-sizing: border-box;
-  margin-bottom: 0;
+  
   padding: 0;
   overflow: auto;
 }
@@ -15,13 +15,10 @@ h1 {
   width: 99%;
   height: auto;
   padding-left: 5px;
-  padding-right: 5px;
   color: black;
-  text-align: justify;
+  text-align: left;
   border: 1px solid black;
   position: relative;
-  overflow: auto;
-
 }
 
 body {
@@ -35,27 +32,29 @@ body {
 		font-weight: bold;
 		color: white;
 		position: relative;
-		background-color: seagreen;
-		border: 1px solid black;
 		float: right;
+    background-color: seagreen;
+		border: 1px solid black;
+		
 	}	
 #title2 {
 		font-size: 125%;
 		font-weight: bold;
 		color: red;
 		position: relative;
-		background-color: lightblue;
-		border: 1px solid black;
 		float: right;
+    background-color: lightblue;
+		border: 1px solid black;
+		
 	}
 #title3 {
 		font-size: 125%;
 		font-weight: bold;
 		color: darkgreen;
 		position: relative;
+    float: right;
 		background-color: lightyellow;
 		border: 1px solid black;
-		float: right;
 	}
 
 	#Para1 {
